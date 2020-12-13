@@ -1,0 +1,17 @@
+.logo{
+    position: relative;
+    top: 20px;
+    right: 0;
+    left: 25px;
+    margin-bottom: 40px;
+    width: 150px;
+}
+
+.menukiri{
+    font-size: 12px;
+    white-space: pre-wrap;
+}
+
+nav li:hover{
+    background-color: rgb(43, 148, 64);
+}
