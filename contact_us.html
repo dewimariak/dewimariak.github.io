@@ -9,7 +9,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="index.css">
-    <title>Biodata</title>
+    <title>Contact Us</title>
 </head>
 <body>
     <div class="row">
@@ -83,26 +83,59 @@
                     <a class="nav-link text-body text-right" href="cookie_preference.html" target="_blank">COOKIE PREFERENCE</a>
                 </li>
             </ul>
+            <br><br><br>
+            <h2 class="text-center">CONTACT US</h2>
             <br><br>
-            <h1 class="text-center">My Personal Identity</h1>
-            <div class="card" style="width:100%">
-                <br>
-                <img class="card-img-top mx-auto" src="GZCIE5192.JPG" style="width: 200px;">
-                <div class="card-body">
-                  <h4 class="card-title text-center">Dewi Maria Kristina</h4>
-                  <p class="card-text">Nickname : Dewi, Dew, Wi</p>
-                  <p class="card-text">Place, DoB   : Bandung, 21<sup>st</sup> March 2002</p>
-                  <p class="card-text">Gender   : Female</p>
-                  <p class="card-text">Nationality  : Indonesia</p>
-                  <p class="card-text">Occupation   : College Student</p>
-                  <p class="card-text">Institution  : Adventist University of Indonesia</p>
-                  <p class="card-text">Major    : Information System</p>
-                  <p class="card-text">Hobby    : Singing, Playing Music</p>
-                  <p class="card-text">Email    : dewimaria2103@gmail.com</p>
-                  <p class="card-text">Instagram    : <a href="https://www.instagram.com/dewimariak/" target="_blank">@dewimariak</a></p>
-                  <a href="biodata.html" class="btn btn-primary">See Profile</a>
+            <form class="col-sm-6 mx-auto">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" class="form-control" id="fullName" placeholder="Please enter your full name">
                 </div>
-            </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" class="form-control" id="username" placeholder="Enter username" name="email">
+                  </div>
+                <div class="form-group">
+                  <label for="pwd">Password:</label>
+                  <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                </div>
+                <div class="form-check-inline">
+                    <label class="form-check-label" for="gender">Gender:<br>
+                        <input type="radio" class="form-check-input" id="gender1" name="gender">Male
+                        <input type="radio" class="form-check-input" id="gender2" name="gender">Female
+                    </label>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <label for="sel1">Religion:</label>
+                    <select class="form-control" id="sel1" name="sellist1">
+                      <option></option>
+                      <option>Christian</option>
+                      <option>Moslem</option>
+                      <option>Buddhist</option>
+                      <option>Hindu</option>
+                      <option>None of the above</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <textarea class="form-control" rows="5" id="address" name="address" placeholder="Enter address"></textarea>
+                </div>
+                <div class="form-check-inline">
+                    <label class="form-check-label" for="hobby">Hobby:<br>
+                        <input type="checkbox" class="form-check-input" id="hobby1" name="hobby1" value="study" checked>Study
+                        <input type="checkbox" class="form-check-input" id="hobby2" name="hobby2" value="swim">Swim
+                        <input type="checkbox" class="form-check-input" id="hobby3" name="hobby3" value="soccer">Soccer
+                        <input type="checkbox" class="form-check-input" id="hobby4" name="hobby4" value="sing">Sing
+                    </label>
+                </div>
+                <br><br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
         </div>
     </div>
 </body>
