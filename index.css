@@ -139,6 +139,10 @@ nav li:hover{
     white-space: pre-wrap;
 }
 
+.ql1{
+    text-decoration: underline;
+}
+
 .ql:hover{
     color: rgb(43, 148, 64);
 }
