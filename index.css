@@ -71,6 +71,9 @@ nav li:hover{
 }
 
 .fom{
+    position: absolute;
+    top: 60px;
+    left: 900px;
     padding: 10px 20px;
     border-radius: 27px;
     font-size: 13px;
