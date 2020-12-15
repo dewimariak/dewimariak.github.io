@@ -135,6 +135,16 @@ nav li:hover{
     color: rgb(85, 81, 81);
 }
 
+.sc{
+    background-color:  rgb(43, 148, 64);
+    border: 0.5px solid white;
+    border-radius: 20px;
+}
+
+.sc:hover{
+    background-color: rgb(93, 163, 107);;
+}
+
 .ql{
     white-space: pre-wrap;
 }
